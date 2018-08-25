@@ -16,30 +16,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
     }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-    }
-
-    @Override
-    protected void onUserLeaveHint() {
-        super.onUserLeaveHint();
-    }
-
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-    }
-    
-    @Override
-    protected void onChildTitleChanged(Activity childActivity, CharSequence title) {
-        super.onChildTitleChanged(childActivity, title);
-    }
     
 }
