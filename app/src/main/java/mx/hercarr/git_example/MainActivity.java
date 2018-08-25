@@ -31,4 +31,9 @@ public class MainActivity extends AppCompatActivity {
         super.onRestart();
     }
     
+    @Override
+    protected void onChildTitleChanged(Activity childActivity, CharSequence title) {
+        super.onChildTitleChanged(childActivity, title);
+    }
+    
 }
