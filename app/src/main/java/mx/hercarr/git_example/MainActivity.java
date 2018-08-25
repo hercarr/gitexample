@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         super.onRestoreInstanceState(savedInstanceState);
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
+    
 }
